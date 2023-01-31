@@ -1,0 +1,27 @@
+body {
+    background-image: url("../sky.jpg");
+    background-repeat: repeat;
+    background-size:15% 15%;
+}
+img {
+    width:15%;
+    height:15%;
+    margin: auto;
+    display: block;
+}
+
+p {
+    font-size:12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    color:white;
+    text-align:center;
+}
+
+.main {
+    font-family:cursive;
+    font-size:20px;
+    color:red;
+}
+    
