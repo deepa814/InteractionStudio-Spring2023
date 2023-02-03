@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+img{
+    width:50%;
+    height:50%
+}
+
+.indianfilmpop{
+    color:darkgoldenrod
+}
+
+.alternativerock{
+    color:darkgreen
+}
+
+.pop{
+    color:darkblue
+}
+
+.indie{
+    color:darkred
+}
+
+div{
+    text-align:center;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    background-color:#edd3e9;
+}
