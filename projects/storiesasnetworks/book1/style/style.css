@@ -1,0 +1,171 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+
+p{
+    font-family:helvetica;
+    font-weight:200;
+    font-size:13px;
+    line-height:1.2;
+}
+
+body {
+    background-color: white;
+}
+
+section{
+    min-height:100vh;
+    width:100%;
+}
+
+.whitebox {
+    border-style:solid;
+    border-color:black;
+    border-width:3px;
+    color:black;
+    background-color:white;
+    padding:30px;
+}
+
+.whiteinvisible {
+    border-style:solid;
+    border-color:black;
+    border-width:3px;
+    color:white;
+    background-color:white;
+    padding:30px;
+}
+
+.blackinvisible{
+    border-style:solid;
+    border-color:black;
+    border-width:3px;
+    color:black;
+    background-color:black;
+    padding:30px;
+}
+
+.blackbox {
+    color:white;
+    background-color:black;
+    padding:30px;
+}
+
+.container {
+    max-width: 700px;
+    min-width:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:50px;
+    padding:30px;
+}
+
+#topbox{
+    margin-bottom:-50px;
+    width:60%;
+    z-index:5;
+    align-self:flex-start;
+}
+
+#middlebox {
+    margin-bottom:-420px;
+    z-index:4;
+    width:70%;
+    align-self:flex-end;
+    margin-right:50px;
+    padding-top:60px;
+}
+
+#overlapbox1{
+    margin-bottom:-50px;
+    z-index:3;
+    width:70%;
+    align-self:flex-end;
+    margin-right:80px;
+    padding-top:60px;
+}
+
+#bottombox{
+    z-index:2;
+    align-self:flex-end;
+    width:60%;
+    padding-top:60px;
+}
+
+.returntext{
+    font-size:30px;
+}
+
+/*.returndiv{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    margin:auto;
+}*/
+
+.returndiv{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    width: 300px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:20px;
+    text-align:end;
+}
+
+#returnp{
+    font-weight:100;
+}    
+
+@media screen and (max-width: 1035px){
+    .returndiv{
+        position:static;
+        top: 20px;
+        left: 10px;
+        width: 300px;
+        margin-bottom:1px;
+        text-align:left;
+    }
+}
+
+.blackboxspan{
+    background-color:white;
+}
+
+.blackboxspan:hover{
+    color:black;
+}
+
+.whiteboxspan{
+    background-color:black;
+}
+
+.whiteboxspan:hover{
+    color:white;
+}
+    
+media (hover:none) {
+    .blackboxspan{
+    background-color:white;
+    }
+    .whiteboxspan:hover{
+    color:white;
+}
+  }
+    
+
+/*.returndiv{
+    padding:30px;
+}-->
+
+
+
+
+
+
+
+
