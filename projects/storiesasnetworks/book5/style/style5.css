@@ -68,71 +68,38 @@ section{
     padding:30px;
 }
 
-#book1{
-    margin-bottom:-50px;
-    width:60%;
-    z-index:4;
-    align-self:flex-start;
-}
-
-#book1overlap{
-    margin-bottom:-30px;
-    margin-left:20px;
-    width:60%;
-    z-index:2;
-    align-self:flex-start;
-}
-
-#book2 {
-    margin-bottom:-50px;
-    z-index:8;
-    width:70%;
-    align-self:flex-end;
-    margin-right:50px;
-}
-
-#book3{
-   margin-bottom:-50px;
-    width:60%;
-    z-index:7;
-    align-self:flex-start; 
-    padding-top:60px;
-}
-
-#book4{
-    margin-bottom:-50px;
-    width:60%;
-    z-index:6;
-    align-self:flex-start;
-    margin-left:60px;
-    padding-top:60px;
-}
-
-#book5{
+#topbox{
     margin-bottom:-50px;
     width:60%;
     z-index:5;
-    align-self:flex-end;
-    padding-top:60px;
-}
-
-#book6{
-    margin-bottom:-50px;
-    width:60%;
-    z-index:4;
     align-self:flex-start;
-    padding-top:60px;
-    margin-left:30px;
 }
 
-#book6overlap{
-     margin-bottom:-50px;
-    width:60%;
+#middlebox {
+    margin-bottom:-420px;
+    z-index:4;
+    width:70%;
+    align-self:flex-end;
+    margin-right:50px;
+    padding-top:60px;
+}
+
+#overlapbox1{
+    margin-bottom:-50px;
+    z-index:3;
+    width:70%;
+    align-self:flex-end;
+    margin-right:80px;
+    padding-top:60px;
+}
+
+#bottombox{
     z-index:2;
     align-self:flex-start;
-    padding-top:30px;
+    margin-left:50px;
+    width:60%;
+    padding-top:100px;
 }
-
 
 .returntext{
     font-size:30px;
@@ -145,52 +112,28 @@ section{
     margin:auto;
 }*/
 
-.title{
+.returndiv{
     position: fixed;
-    top: 80px;
-    right: 20px;
-    width: 400px;
+    bottom: 20px;
+    right: 10px;
+    width: 300px;
     padding-left:20px;
     padding-right:20px;
     padding-top:20px;
     text-align:end;
-    font-weight:300;
 }
 
-
-#title1{
-    font-size:50px;
-    font-weight:500;
-}
-
-.subtitle{
-    position: fixed;
-    bottom: 80px;
-    right: 20px;
-    width: 400px;
-    padding-left:20px;
-    padding-right:20px;
-    padding-top:20px;
-    text-align:end;
-    font-weight:300;
-}
+#returnp{
+    font-weight:100;
+}    
 
 @media screen and (max-width: 1035px){
-    .title{
+    .returndiv{
         position:static;
         top: 20px;
         left: 10px;
         width: 300px;
         margin-bottom:1px;
-        text-align:left;
-    }
-    .subtitle{
-       position:static;
-        bottom: 20px;
-        left: 10px;
-        width: 300px;
-        margin-top:10px;
-        margin-bottom:30px;
         text-align:left;
     }
 }
@@ -211,3 +154,24 @@ section{
     color:white;
 }
     
+media (hover:none) {
+    .blackboxspan{
+    background-color:white;
+    }
+    .whiteboxspan:hover{
+    color:white;
+}
+  }
+    
+
+/*.returndiv{
+    padding:30px;
+}-->
+
+
+
+
+
+
+
+
