@@ -1,0 +1,27 @@
+body{
+    background-color:#fcefed;
+}
+
+.special{
+    font-family:arial;
+    font-size:100px;
+    color:palevioletred;
+}
+
+.title{
+    border-style:solid;
+    border-width:3px;
+    border-color:#b5415a;
+}
+
+p{
+    color:#b5415a;
+}
+
+.title{
+    margin:auto;
+}
+
+div{
+    text-align:center;
+}
