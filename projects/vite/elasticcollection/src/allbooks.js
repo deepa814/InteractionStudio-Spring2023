@@ -1,5 +1,5 @@
-[
- {
+export const allBooks = [
+    {
    "id": 1,
    "title": "Spring Fire",
    "year": 1952,
@@ -11,7 +11,7 @@
  {
    "id": 2,
    "title": "Women's Barracks",
-   "year": 1950,
+   "year": 1951,
    "author": "Tereska Torres",
    "romanceTropes": ["roommates", "rescue"],
    "cover": "https://imgur.com/FFLUfxM",
@@ -112,7 +112,7 @@
    "title": "Nurses' quarters",
    "year": 1960,
    "author": "Lee Morell",
-   "romanceTropes": ["roommates", "the confused woman", "butch/femme"]
+   "romanceTropes": ["roommates", "the confused woman", "butch/femme"],
    "cover": "https://imgur.com/ccy4TPi",
    "summary": "Set against the backdrop of Mercy Hospital, Claire is a young, dedicated nurse. Inexperienced and shy, she tends to keep to herself and avoid romantic relationships… until she meets Birdie."
  },
@@ -130,7 +130,7 @@
    "title": "Girls' Dormitory",
    "year": 1958,
    "author": "Orrie Hitt",
-   "romanceTropes": ["roommates", "love triangle"]
+   "romanceTropes": ["roommates", "love triangle"],
    "cover": "https://imgur.com/moQE9bM",
    "summary": "\n\nSure, Peggy was a sweet kid, and pretty, too—which was why she would have made out just fine at a co-ed college.   It was a forgone conclusion that Helen Lee, an older dorm mate, would be able to seduce Peggy into behavior unbecoming such a sweet, young thing."
  },
@@ -139,7 +139,7 @@
    "title": "Gay Girl ",
    "year": 1962,
    "author": "Joan Ellis",
-   "romanceTropes": ["rescue", "opposites attract"]
+   "romanceTropes": ["rescue", "opposites attract"],
    "cover": "https://imgur.com/qw6p8HR",
    "summary": "Phyllis is a successful doctor who is passionately dedicated to her work. Then, she meets Eve… and begins to wonder whether she has finally found a love that counts.  Eve had been married, but has never known pleasure with a man as she experiences with Phyl."
  },
@@ -148,7 +148,7 @@
    "title": "I Prefer Girls",
    "year": 1963,
    "author": "Jessie Dumont",
-   "romanceTropes": ["butch/femme", "second chance"]
+   "romanceTropes": ["butch/femme", "second chance"],
    "cover": "https://imgur.com/zpuWh4c",
    "summary": "This novel is a first-person fictional narrative of short-term events in the life of a Greenwich Village lesbian named Penny, who has evolved from a callous tomboy to a hardhearted, gorgeous femme. "
  },
@@ -157,7 +157,7 @@
    "title": "Three women ",
    "year": 1958,
    "author": "March Hastings",
-   "romanceTropes": ["forbidden love", "rescue"]
+   "romanceTropes": ["forbidden love", "rescue"],
    "cover": "https://imgur.com/4WUZiUd",
    "summary": "Phil Carlson’s marriage proposal is 18-year-old Paula’s ticket out of the tenement and dingy life with her alcoholic father. Byrne, an artist who lives in Greenwich Village, is bewitched by Paula’s crush on her and daringly allows it to blossom, despite the dark secret that forever ties her."
  },
@@ -184,7 +184,7 @@
    "title": "Appointment in Paris",
    "year": 1952,
    "author": " Fay Adams",
-   "romanceTropes": ["rescue", "forbidden love"]
+   "romanceTropes": ["rescue", "forbidden love"],
    "cover": "https://imgur.com/dj7eGFa",
    "summary": "Hattie is having a difficult time living under the strict watchful eye of her aunt. One day she meets a woman named Marcelle in the hallway of their apartment building.The time in which they live, however, is very dangerous as World War II rages all around them."
  },
@@ -224,4 +224,4 @@
    "cover": "https://imgur.com/oUFMro4",
    "summary": "Here it is! The infamous book that proves the female of the species is deadlier than the male! Young Charlene knew something was different  about her, but never expected the dacts she'd commit in her adult life."
  }
-]
+    ];
