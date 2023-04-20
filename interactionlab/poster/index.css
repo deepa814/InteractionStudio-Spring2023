@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Sofia+Sans+Condensed&display=swap');
+
+
+body{
+    background-color:#e8e8e8;
+}
+
+img{
+    width:298px;
+    height:268px;
+    border: 3px solid black;
+}
+
+.header{
+    border-bottom-style:solid;
+    border-bottom-width:3px;
+    border-bottom-color:black;
+    margin-left:0px;
+    margin-right:0px;
+    font-size:20px;
+}
+
+.footer{
+    border-top-style:solid;
+    border-top-width:3px;
+    border-top-color:black;
+    margin-left:0px;
+    margin-right:0px;
+    font-size:20px;
+}
+
+.titlecontainer{
+    border-bottom-style:solid;
+    border-bottom-width:3px;
+    border-bottom-color:black;
+    margin-left:0px;
+    margin-right:0px;
+    font-family: 'Changa One', cursive;
+}
+
+.title{
+    font-family: 'Changa One', cursive;
+    font-size:90px;
+    font-style: normal;
+    font-weight: normal;
+    margin:0px;
+    color:#a33939;
+}
+
+.location{
+    color:#a33939;
+}
+
+div p{
+    color:black;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+
+div{
+    text-align:center;
+}
+
+.subheader{
+    border-bottom-style:solid;
+    border-bottom-width:3px;
+    border-bottom-color:black;
+    margin-left:0px;
+    margin-right:0px;
+    font-size:20px;
+}
+
+.link{
+    display:inline-block;
+    margin-left:40px;
+    margin-right:40px;
+}
+
+.filters{
+    margin-top:10px;
+    text-align:left;
+}
+
+.button{
+    display:inline-block;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:5px;
+    padding-right:5px;
+    margin:10px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    font-size:12px;
+}
+
+.buttonselect{
+    display:inline-block;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:5px;
+    padding-right:5px;
+    margin:10px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    background-color:black;
+    font-size:12px;
+    color:#F5F5F5;
+}
+
+.buttonselect p{
+    color:#F5F5F5;
+}
+
+.button:hover{
+    display:inline-block;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:5px;
+    padding-right:5px;
+    margin:10px;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    background-color:black;
+    font-size:12px;
+    color:#F5F5F5;
+}
+
+.button:hover p{
+    color:#F5F5F5;
+}
+
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover{
+    margin:20px;
+}
+
+.cover:hover{
+  filter: brightness(150%);
+}
