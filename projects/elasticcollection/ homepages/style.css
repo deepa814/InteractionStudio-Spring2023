@@ -174,3 +174,13 @@ div{
 .bookcover:hover{
   filter: brightness(120%);
 }
+
+@media screen and (max-width: 375px){
+    .bookcontainer{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center
+    }
+        
+}
