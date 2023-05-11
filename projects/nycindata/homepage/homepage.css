@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap');
+
+body{
+    background-color:white;
+}
+
+.monument p{
+    opacity:0%;
+}
+
+.monument:hover p{
+    opacity:100%;
+}
+
+.d p{
+    color:white;
+}
+
+.c p{
+    color:white;
+}
+
+p{
+    color: black;
+    font-family:'Cormorant Garamond', serif;
+    margin-left:40px;
+    margin-right:40px;
+    font-weight:bold;
+}
+
+.box {
+    height:50px;
+    width:50px;
+    border-style:dashed;
+    border-width:3px;
+    margin-bottom:10px;
+}
+
+.a{
+    background-color:#ededed;
+}
+
+.b{
+    background-color:#b5b5b5;
+}
+
+.c{
+    background-color:#878787;
+}
+
+.d{
+    background-color:#6f6f6f;
+}
+
+.unit{
+    display:flex;
+    flex-direction:row;
+    justify-items:center;
+}
+
+a{
+    text-decoration:underline;
+    color:black;
+    font-family:'Cormorant Garamond', serif; 
+}
+
+.years{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    margin-bottom:20px;
+}
+
+.menu{
+    padding:15px;
+}
+
+img{
+    width:160px;
+    height:264px;
+}
+
+.titlecontainer{
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-bottom-color:black;
+    margin-left:0px;
+    margin-right:0px;
+    text-align:center;
+    padding:15px;
+}
+
+.title{
+    font-family:'Cormorant Garamond', serif;
+    font-size:50px;
+    font-style: bold;
+    font-style:oblique;
+    margin:0px;
+}
+
+.subtitle{
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-bottom-color:black;
+    margin-left:0px;
+    margin-right:0px;
+    font-size:18px;
+    display:flex;
+    justify-content:center;
+    padding:10px;
+}
+
+.key{
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-bottom-color:black;
+    margin-left:0px;
+    margin-right:0px;
+    font-size:18px;
+    padding:10px;
+}
+
+.keytitle{
+    text-align:center;
+    font-style:oblique;
+}
+
+.monumentsection{
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-bottom-color:black;
+    margin-left:0px;
+    margin-right:0px;
+    font-size:20px;
+    padding-bottom:20px;
+}
+
+.monumentcontainer{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;   
+}
+
+
+.borough{
+    text-align:center;
+    font-size:30px;
+    font-style:oblique;
+}
+
+.monumentsection{
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-bottom-color:black;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.monument{
+    width:150px;
+    height:150px;
+    margin:20px;
+    border-width:3.5px;
+    border-color:black;
+    border-style:dashed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.monument p{
+    text-align:center;
+    font-size:18px;
+    font-style:italic;
+}
+
+img{
+    width:150px;
+    height:150px;
+    opacity:0%;
+}
+
+
+
+img:hover{
+    opacity:100%;
+}
+
+.footer{
+    text-align:center;
+    font-size:18px;
+    font-style:italic;
+    padding:10px;
+}
+
+.information{
+    margin-left:0px;
+    margin-right:0px;
+    font-size:18px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-bottom-color:black;
+    padding:10px;
+    
+}
+
+.pagelink a{
+    display: block;
+}.
+
